@@ -91,3 +91,18 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
+
+```SnackPlayer name=Hello%20World description=This%20is%20a%20description
+import React from 'react';
+import { Text, View } from 'react-native';
+
+const YourApp = () => {
+  return (
+    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+      <Text>Try editing me! 🎉</Text>
+    </View>
+  );
+}
+
+export default YourApp;
+```
